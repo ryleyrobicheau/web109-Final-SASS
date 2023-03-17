@@ -1,0 +1,22 @@
+@include mobile {
+    header {
+        background-color: white;
+        nav {
+            background-color: red;
+        }
+    }
+    
+}
+
+@include tablet {
+    header {
+        background-color: pink;
+    }
+}
+
+@include desktop {
+    header {
+        background-color: yellow;
+    }
+}
+
