@@ -1,9 +1,30 @@
 @include mobile {
     header {
         background-color: white;
-        nav {
-            background-color: red;
+
+        h1 {
+            font-size: 7rem;
         }
+        
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+                             
+        }
+        
+        nav ul {
+
+            display: block;  
+            justify-content: space-between;
+            list-style-type: none;
+            grid-column-start: 2;        
+        }
+
+        nav ul li {
+         border-bottom: solid 1px black;
+        }
+      
     }
     
 }
