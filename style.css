@@ -71,6 +71,54 @@ h1 {
     border-bottom: 6px solid rgba(105, 102, 102, 0.498);
     width: 100%;
   }
+  .lunch h2 {
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+  }
+  .lunch .lunch-wrapper {
+    background-color: rgba(78, 77, 77, 0.701);
+    margin: 1rem;
+    padding: 0.5rem;
+    color: white;
+  }
+  .lunch .lunch-wrapper table {
+    margin-right: 1rem;
+    border-collapse: collapse;
+  }
+  .lunch .lunch-wrapper table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .lunch .lunch-wrapper table td, .lunch .lunch-wrapper table th {
+    border-bottom: 6px solid rgba(105, 102, 102, 0.498);
+    width: 100%;
+  }
+  .dinner h2 {
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+  }
+  .dinner .dinner-wrapper {
+    background-color: rgba(78, 77, 77, 0.701);
+    margin: 1rem;
+    padding: 0.5rem;
+    color: white;
+  }
+  .dinner .dinner-wrapper table {
+    margin-right: 1rem;
+    border-collapse: collapse;
+  }
+  .dinner .dinner-wrapper table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .dinner .dinner-wrapper table td, .dinner .dinner-wrapper table th {
+    border-bottom: 6px solid rgba(105, 102, 102, 0.498);
+    width: 100%;
+  }
 }
 @media (min-width: 501px) and (max-width: 800px) {
   header {
